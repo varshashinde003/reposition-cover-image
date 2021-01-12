@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.cover-image-wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.drag-helper{
+  position: absolute;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.update-cover-image-wrapper{
+  position: fixed;
+  bottom: 10%;
+  right:10%;
+}
+
+.update-cover-image-wrapper button {
+  padding: 8px 16px;
+}
+
+.update-cover-image-wrapper button:first-child{
+  margin-right: 16px;
+}
+
+.update-info{
+  top: 42% !important;
+  right:43% !important;
+}
+
+.btn-update{
+  position: fixed;
+  top: 10%;
+  right:10%;
+  background: rgb(0 0 0 / 60%);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+}
+
+.cursor-normal{
+  cursor: normal !important;
+}
+
+.cursor-grab{
+  cursor: grab !important;
+}
+
+/* add media queries */
