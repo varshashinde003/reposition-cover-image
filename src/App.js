@@ -88,7 +88,7 @@ class App extends React.Component {
             }`}
           >
             <div
-              className="drag-helper" // position
+              className="drag-helper"
               style={{ top: converPosition }}
               onMouseDown={this.handleMouseDown}
               ref={this.coverImageRef}
